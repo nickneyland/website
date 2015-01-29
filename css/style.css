@@ -1,0 +1,9 @@
+/* Custom code */
+
+.f-dropdown:before, .f-dropdown:after {
+	display: none;
+}
+
+.f-dropdown > *:last-child {
+	padding: 10px 20px 10px 20px;
+}
