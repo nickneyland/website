@@ -14,6 +14,8 @@ body {
 	height: auto;
 }
 
+/* front page */
+
 .main-body .large-4 {
 	text-align: center;
 }
@@ -49,7 +51,7 @@ ul.sub-menu {
 	font-size: 16px;
 }
 
-.sub-menu.email-menu li {
+.sub-menu.email-menu li, .mobile-menu.email-menu li {
 	background: #810d0d;
 	padding: 5px 10px 5px 10px;
 	margin-bottom: 10px;
@@ -59,19 +61,19 @@ ul.sub-menu {
   padding: 5px 10px 5px 10px;
 }
 
-.sub-menu.text-menu li {
+.sub-menu.text-menu li, .mobile-menu.text-menu li  {
 	margin-bottom: 10px;
-    width: 200px;
+  width: 200px;
   right: 20px;
   background: #810d0d;
   padding: 5px 10px 5px 10px;
 }
 
-.sub-menu.text-menu li:last-child, .sub-menu.email-menu li:last-child  {
+.sub-menu.text-menu li:last-child, .sub-menu.email-menu li:last-child, .mobile-menu.email-menu li:last-child, .mobile-menu.text-menu li:last-child  {
 	margin-bottom: 0;
 }
 
-.sub-menu.text-menu a {
+.body-text .sub-menu.text-menu a, .body-text .mobile-menu.text-menu a {
 	font-size: 16px;
 }
 
@@ -85,10 +87,10 @@ nav ul li {
 }
 
 nav li ul {    
-    position: absolute;
-    left: 18px;
-    top: 112px; 
-    width: 200px;
+  position: absolute;
+  left: 18px;
+  top: 112px; 
+  width: 200px;
 	height: auto;
 	background: rgb(128, 128, 128);
 	background-image:url('../img/static.gif');
@@ -154,12 +156,41 @@ a.github {
 	display: none;
 }
 
+footer {
+  padding: 50px 0 20px 0;
+}
+
+footer .large-12.footer-column {
+  padding-left: 0;
+}
+
+footer p {
+  font-family: 'itc_avant_garde_gothic_proBk';
+  color: #fff;
+}
+
+/* highlights page */
+
+.body-text.inner-page {
+  margin-top: 20px;
+}
+
+.body-text.inner-page a, .body-text.inner-page h3 {
+  font-family: 'itc_avant_garde_gothic_proBk';
+  color: #fff;
+  font-size: 3em;
+}
+
+.inner-layout {
+    background: #fff;
+}
+
 /* responsive */
 
 @media screen and (max-width: 1025px) {
 	.body-text { margin-top: 50px; }
 	a.body-header { display: none; }
 	h3.mobile-header { display: block; }
-	nav li ul { display: none !important;}
-	.mobile-menu { display: block;}
+	nav li ul.sub-menu { display: none !important;}
+	nav li ul.mobile-menu { display: block; position: static; margin: 0 auto;}
 }
