@@ -175,6 +175,11 @@ footer p {
   margin-top: 20px;
 }
 
+.inner-body {
+  background-image:url('../img/header-bg.png');
+  background-repeat: no-repeat;
+}
+
 .body-text.inner-page a, .body-text.inner-page h3 {
   font-family: 'itc_avant_garde_gothic_proBk';
   color: #fff;
