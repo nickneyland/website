@@ -175,8 +175,13 @@ footer p {
   margin-top: 20px;
 }
 
-.inner-body {
-
+.inner-icons {
+  width: 240px;
+  height: auto;
+  background: rgb(128, 128, 128);
+  background-image:url('../img/static.gif');
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .body-text.inner-page a, .body-text.inner-page h3 {
