@@ -53,10 +53,18 @@ ul.sub-menu {
 	background: #810d0d;
 	padding: 5px 10px 5px 10px;
 	margin-bottom: 10px;
+  width: 200px;
+  right: 20px;
+  background: #810d0d;
+  padding: 5px 10px 5px 10px;
 }
 
 .sub-menu.text-menu li {
 	margin-bottom: 10px;
+    width: 200px;
+  right: 20px;
+  background: #810d0d;
+  padding: 5px 10px 5px 10px;
 }
 
 .sub-menu.text-menu li:last-child, .sub-menu.email-menu li:last-child  {
@@ -65,8 +73,6 @@ ul.sub-menu {
 
 .sub-menu.text-menu a {
 	font-size: 16px;
-	background: #810d0d;
-	padding: 5px 10px 5px 10px;
 }
 
 .sub-menu.text-menu a:hover {
